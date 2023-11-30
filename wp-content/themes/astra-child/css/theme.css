@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Syne';
+    src: url('../fonts/Syne-VariableFont_wght.ttf') format('truetype');
+  }
+  
+  body * {
+    font-family: 'Syne', 'Times New Roman', Times, serif;
+  }
+
+  .site-main > article {
+    padding-top: 0 !important;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+
+  #content .ast-container {
+    padding: 0;
+  }
+  
+  #content .ast-container #primary {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .wp-block-uagb-image figure img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+  
